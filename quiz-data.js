@@ -32,6 +32,54 @@ const quizData = [
         ],
         image: "/q2.png",
       },
+      {
+        id: 3,
+        question: "Is carbon dioxide one of the greenhouse gases?",
+        answer: 1,
+        choices: [
+          {
+            id: 1,
+            value: "yes",
+          },
+          {
+            id: 2,
+            value: "no",
+          },
+        ],
+        image: "/q3.png",
+      },
+      {
+        id: 4,
+        question: "Is carbon dioxide one of the greenhouse gases?",
+        answer: 1,
+        choices: [
+          {
+            id: 1,
+            value: "yes",
+          },
+          {
+            id: 2,
+            value: "no",
+          },
+        ],
+        image: "/q4.png",
+      },
+      {
+        id: 5,
+        question: "Is carbon dioxide one of the greenhouse gases?",
+        answer: 1,
+        choices: [
+          {
+            id: 1,
+            value: "yes",
+          },
+          {
+            id: 2,
+            value: "no",
+          },
+        ],
+        image: "/q5.png",
+      },
   ];
   
   export default quizData;

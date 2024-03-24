@@ -11,8 +11,8 @@ export default function Quiz() {
         className={styles.man}
         src="/man.png"
         alt="man"
-        width="189"
-        height="306"
+        width="190"
+        height="300"
       />
       <p className={styles.text}>
         Let’s learn about climate change issues through quizzes.
