@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section className={styles.home}>
       <h1 className={styles.title}>
-        Save the <br />
+        Save the <br/>
         Earth
       </h1>
       <Button link={"/start"}>Start</Button>
