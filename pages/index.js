@@ -4,6 +4,7 @@ import Layout from "@/Components/Layout";
 
 export default function Home() {
   return (
+    <Layout>
     <section className={styles.home}>
       <h1 className={styles.title}>
         Save the <br/>
@@ -11,5 +12,6 @@ export default function Home() {
       </h1>
       <Button link={"/start"}>Start</Button>
     </section>
+    </Layout>
   );
 }

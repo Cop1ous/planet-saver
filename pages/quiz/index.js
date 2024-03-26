@@ -2,9 +2,11 @@ import React from "react";
 import Image from "next/image";
 import styles from "./quiz.module.css";
 import Button from "@/Components/Button";
+import Layout from "@/Components/Layout";
 
 export default function Quiz() {
   return (
+    <Layout>
     <section className={styles.quiz}>
       <h1 className={styles.title}>Quiz</h1>
       <Image
@@ -19,5 +21,6 @@ export default function Quiz() {
       </p>
       <Button link="quiz/1">Start</Button>
     </section>
+    </Layout>
   );
 }
