@@ -62,7 +62,7 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background: var(--blue);
+    background: #0a4e9f;
     text-align: center;
     z-index: 10;
   }
@@ -73,13 +73,13 @@
   }
   
   .menuScreen ul li a {
-    color: var(--white-text);
-    font-size: var(--font-medium);
+    color: white;
+    font-size: 30px;
   }
   
   .menuScreen button {
     background: none;
     border: none;
-    color: var(--white-text);
-    font-size: var(--font-medium);
+    color: white;
+    font-size: 24px;
   }
