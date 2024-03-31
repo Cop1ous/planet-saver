@@ -7,6 +7,20 @@ export default function about() {
   return (
     <Layout>
     <section className={styles.about}>
+    <Image
+        className={styles.graph}
+        src={`graph.png`}
+        alt={`graph`}
+        width="300"
+        height="200"
+      />
+        <Image
+        className={styles.bear}
+        src={`bear.png`}
+        alt={`bear`}
+        width="300"
+        height="300"
+      />
     <div>
       <Button link="/quiz">Next</Button>
     </div>

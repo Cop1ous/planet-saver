@@ -25,7 +25,7 @@ export default function Header() {
           src="/arrow.png"
           alt="back"
           width="60"
-          height="53"
+          height="50"
         />
       </div>
       <div className={styles.logoContainer}>
@@ -33,8 +33,8 @@ export default function Header() {
           className={styles.logo}
           src="/logo.png"
           alt="logo"
-          width="102"
-          height="57"
+          width="100"
+          height="60"
         />
       </div>
       <div className={styles.menuContainer}>
@@ -43,7 +43,7 @@ export default function Header() {
           src="/menu.png"
           alt="menu"
           width="60"
-          height="53"
+          height="50"
         />
       </div>
       <div className={styles.menu} onClick={showMenu}></div>
