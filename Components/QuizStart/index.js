@@ -7,7 +7,7 @@ export default function QuizStart({ onClick }) {
   return (
     <>
       <h1 className={styles.title}>Quiz</h1>
-      <Image src="/man.png" alt="man" width="190" height="300" />
+      <Image src="/man.png" alt="man" width="190" height="300"/>
       <p className={styles.text}>
         Let’s learn about climate change issues through quizzes.
       </p>

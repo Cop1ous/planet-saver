@@ -58,7 +58,7 @@ export default function Quiz() {
     <Layout>
       <section className={styles.quiz}>
         {state === "score" ? (
-          <Score score={score} />
+          <Score score={score}/>
         ) : currentQuestionNumber ? (
           hasAnswer ? (
             <Answer
